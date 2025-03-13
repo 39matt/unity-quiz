@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=fbefafaa1f6720f4eb25164745b55834&amp;type=3#main-menu" />
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" class="menu" style="flex-grow: 1;">
+            <ui:Button name="Category1Button" style="background-image: url(&quot;project://database/Assets/Cards/categoryButtons/category1.jpg?fileID=2800000&amp;guid=c6bd88726f1cad54e87507cefe332f40&amp;type=3#category1&quot;); width: 500px; height: 500px; margin-top: auto; margin-bottom: auto; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            <ui:Button triple-click-selects-line="true" name="Category2Button" style="background-image: url(&quot;project://database/Assets/Cards/categoryButtons/category2.jpg?fileID=2800000&amp;guid=6656c98e30999f5429b07b536f728de0&amp;type=3#category2&quot;); height: 500px; width: 500px; margin-top: auto; margin-bottom: auto; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            <ui:Button name="Category3Button" style="background-image: url(&quot;project://database/Assets/Cards/categoryButtons/category3.jpg?fileID=2800000&amp;guid=42ed3b2bd717983409fb948025e1117d&amp;type=3#category3&quot;); margin-top: auto; margin-bottom: auto; width: 500px; height: 500px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            <ui:Button name="Quit" style="background-image: url(&quot;project://database/Assets/Cards/buttons/exit-nobg.png?fileID=-3180788239612869025&amp;guid=de92ecba83b33eb46b1f65cd04301509&amp;type=3#exit-nobg_0&quot;); margin-top: auto; margin-bottom: auto; width: 488px; height: 191px; background-color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
